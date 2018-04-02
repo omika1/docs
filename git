@@ -1,0 +1,74 @@
+Git Basics
+
+1) Clone a Repository:
+
+To clone a repository use the following command:
+
+    git clone <Repository URL>
+
+To clone a branch in git repository use the following command:
+
+    git clone -b <branch> <Repository URL>
+
+Whenever you clone a master branch(default as in first case) or a branch (second case) you are checked out to it.
+
+2) Checkout a branch:
+
+You can switch between branches using the following command
+
+    git checkout <branchname>
+    
+To see you are currently on which branch use:
+
+    git status 
+    
+3) Create a  new branch
+
+You can create a new branch by giving the following command:
+  
+    git checkout -b <branch_name>
+ 
+ When you run above command you will create a new branch and check out to it.
+ To create a new branch you should be present on the correct parent branch.
+ 
+ 4) Commiting in git:
+ 
+ Before you can commit a new file in git you must add the file in the staging area by running the follwoing command:
+ 
+    git add filename
+ 
+ Once the file is added to the staging area you can commit the changes by running the following command:
+ 
+   git commit -m "message"
+   
+ Commiting files this way doesn't commits the file on the git central repository, it just commits it locally.
+ 
+ 
+ 5) Push Changes to the repository:
+ 
+    git push origin master
+    
+    OR if you want to push changes to a particular branch use:
+    
+    git push origin <branch name>
+    
+ 6) Git pull:
+ 
+ You can use git pull command to synchronize your local repo with central git repository.
+ 
+ 7) git rename a branch
+ 
+ 
+ 
+ 
+ 8) git merge 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
